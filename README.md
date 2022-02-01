@@ -33,3 +33,9 @@ and now we have to enable VNC so the we can stream the GUI on your laptop instea
 ```
 sudo raspi-config
 ```
+
+![This is an image](http://scruss.com/wordpress/wp-content/uploads/2017/06/2017-06-12-100357_659x422_scrot.png)
+
+![This is an image](http://scruss.com/wordpress/wp-content/uploads/2017/06/2017-06-12-100419_659x422_scrot.png)
+
+
