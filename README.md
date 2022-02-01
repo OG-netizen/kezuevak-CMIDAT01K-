@@ -104,4 +104,5 @@ Now you can look at your thingspeak channel and analyze the data.
 ![](images/thingspeakStats.png)
 
 This is the data pipline for the project. 
+
 ![](images/datapipline.png)
