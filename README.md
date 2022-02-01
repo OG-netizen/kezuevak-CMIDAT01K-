@@ -24,5 +24,7 @@ Now open putty on your laptop and enter the IP adress of the raspberry pi in the
 ![This is an image](https://www.circuitbasics.com/wp-content/uploads/2015/01/Raspberry-Pi-PuTTY-Warning1.png)
 
 And now the login info for first time loggin:
+
 username: pi
+
 password: raspberry
