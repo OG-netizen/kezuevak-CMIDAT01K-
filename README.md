@@ -56,3 +56,4 @@ All you need is
 - 1 DHT22 sensor
 - 1 10k resistor
 
+## making it work 
