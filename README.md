@@ -18,4 +18,4 @@ network={
 }
 
 ```
-
+Put the two files in the SD card and then insert into the raspberry pi.
