@@ -101,4 +101,4 @@ if __name__ == "__main__":
  
 save it and then run it. (Note: the only thing you have to change is the channel id and write key to your own channel's id and write key.)
 Now you can look at your thingspeak channel and analyze the data.
-![](images/thingspeak_channel.jpg)
+![](images/thingspeak_channel.png)
