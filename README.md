@@ -43,3 +43,6 @@ sudo raspi-config
 ![This is an image](http://scruss.com/wordpress/wp-content/uploads/2017/06/2017-06-12-100419_659x422_scrot.png)
 
 With VNC enabled we can now use the laptop as a monitor. 
+
+
+## Setting up DHT22 sensor 
