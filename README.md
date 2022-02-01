@@ -46,3 +46,6 @@ With VNC enabled we can now use the laptop as a monitor.
 
 
 ## Setting up DHT22 sensor 
+
+I made a fritzing diagram of the setup. 
+![](https://i.stack.imgur.com/RvTGE.png)
