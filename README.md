@@ -6,4 +6,17 @@ Before we start, you need an account at ThingSpeak. Create an account on this li
 ![This is an image](https://thingspeak.com/assets/Signup_TSP_ML_image-3d581d644f5eb1ff9f4999fc55ad04e2530ee7f54be98323d7bb453032353750.svg)
 
 ## Setting up rasberry pi 
+First you have to flash your SD card. To download the rasbian OS visit this link https://www.raspberrypi.com/software/ 
+After flashing the SD card, make two new files SSH and wpa_supplicant.config , in the wpa_supplicant.config file it should be filled with this:
+```
+country=US # Your 2-digit country code
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+network={
+    ssid="YOUR_NETWORK_NAME"
+    psk="YOUR_PASSWORD"
+    key_mgmt=WPA-PSK
+}
+
+
+```
 
