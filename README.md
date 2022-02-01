@@ -48,6 +48,7 @@ With VNC enabled we can now use the laptop as a monitor.
 ## Setting up DHT22 sensor 
 
 I made a fritzing diagram of the setup, the resistor is 10k. 
+
 ![](https://i.stack.imgur.com/RvTGE.png)
 All you need is 
 - 4 jumper wires
