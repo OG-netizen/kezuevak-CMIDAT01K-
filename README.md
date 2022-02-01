@@ -57,3 +57,8 @@ All you need is
 - 1 10k resistor
 
 ## Making it work 
+
+Open vnc and connect to your raspberry, now create a python file with 
+```
+nano measure.py 
+```
