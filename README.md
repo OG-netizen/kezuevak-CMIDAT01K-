@@ -5,6 +5,10 @@ Frequently, a lot of data is generated in projects that run around the clock. On
 Before we start, you need an account at ThingSpeak. Create an account on this link https://thingspeak.com/login if you do not have one yet. Then, create a new channel at https://thingspeak.com/channels.
 ![This is an image](https://thingspeak.com/assets/Signup_TSP_ML_image-3d581d644f5eb1ff9f4999fc55ad04e2530ee7f54be98323d7bb453032353750.svg)
 
+now make channel with two fields humidty and temparature.
+
+![](images/thingspeak_channel.png)
+
 ## Setting up rasberry pi 
 First you have to flash your SD card. To download the rasbian OS visit this link https://www.raspberrypi.com/software/ 
 After flashing the SD card, make two new files SSH and wpa_supplicant.config , in the wpa_supplicant.config file it should be filled with this:
@@ -20,4 +24,28 @@ network={
 ```
 Put the two files in the SD card and then insert into the raspberry pi.
 Now open putty on your laptop and enter the IP adress of the raspberry pi in the hostname with connectype SSH, you can find the IP adress of the raspberry pi with Angry IP Scanner https://angryip.org/
+
 ![This is an image](https://www.circuitbasics.com/wp-content/uploads/2015/01/Raspberry-Pi-PuTTY-Warning1.png)
+
+And now the login info for first time loggin:
+```
+username: pi
+password: raspberry
+```
+and now we have to enable VNC so the we can stream the GUI on your laptop instead of using HDMI to plug in a monitor. with the command 
+
+```
+sudo raspi-config
+```
+
+![This is an image](http://scruss.com/wordpress/wp-content/uploads/2017/06/2017-06-12-100357_659x422_scrot.png)
+
+![This is an image](http://scruss.com/wordpress/wp-content/uploads/2017/06/2017-06-12-100419_659x422_scrot.png)
+
+With VNC enabled we can now use the laptop as a monitor. 
+
+
+## Setting up DHT22 sensor 
+
+I made a fritzing diagram of the setup, the resistor is 10k. 
+![](https://i.stack.imgur.com/RvTGE.png)
