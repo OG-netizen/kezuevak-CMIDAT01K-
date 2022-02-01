@@ -7,7 +7,7 @@ Before we start, you need an account at ThingSpeak. Create an account on this li
 
 now make channel with two fields humidty and temparature.
 
-![](images/thingspeak_channel)
+![](images/thingspeak_channel.png)
 
 ## Setting up rasberry pi 
 First you have to flash your SD card. To download the rasbian OS visit this link https://www.raspberrypi.com/software/ 
