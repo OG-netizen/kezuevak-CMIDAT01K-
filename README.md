@@ -64,7 +64,14 @@ Open vnc and connect to your raspberry, now create a python file in the terminal
 ```
 nano measure.py 
 ```
-paste the code 
+Download the necessary libraries with 
+
+```
+pip install thingspeak
+pip install Adafruit_DHT
+```
+
+copy and paste this the code below
 
 ```
 import thingspeak
