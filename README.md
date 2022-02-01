@@ -19,3 +19,4 @@ network={
 
 ```
 Put the two files in the SD card and then insert into the raspberry pi.
+![This is an image](https://www.circuitbasics.com/wp-content/uploads/2015/01/Raspberry-Pi-PuTTY-Warning1.png)
