@@ -72,7 +72,6 @@ import Adafruit_DHT
  
 channel_id = 1638044 # PUT CHANNEL ID HERE
 write_key  = 'IQG6W5WX61USIYRA' # PUT YOUR WRITE KEY HERE
-read_key   = '4QLGUBHEML08430B' # PUT YOUR READ KEY HERE
 pin = 4
 sensor = Adafruit_DHT.DHT22
  
@@ -98,3 +97,5 @@ if __name__ == "__main__":
         # free account has an api limit of 15sec
         time.sleep(15)
  ```
+ 
+save it and then run it. (Note: the only thing you have to change is the channel id and write key.
