@@ -28,7 +28,7 @@ And now the login info for first time loggin:
 username: pi
 password: raspberry
 ```
-and now we have to enable VNC so the we can stream the GUI on your laptop instead of using HDMI to plug in a monitor. with the command \
+and now we have to enable VNC so the we can stream the GUI on your laptop instead of using HDMI to plug in a monitor. with the command 
 
 ```
 sudo raspi-config
