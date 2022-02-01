@@ -3,3 +3,7 @@ Frequently, a lot of data is generated in projects that run around the clock. On
 
 ## Setting up thingspeak account
 Before we start, you need an account at ThingSpeak. Create an account on this link https://thingspeak.com/login if you do not have one yet. Then, create a new channel at https://thingspeak.com/channels.
+![This is an image](https://thingspeak.com/assets/Signup_TSP_ML_image-3d581d644f5eb1ff9f4999fc55ad04e2530ee7f54be98323d7bb453032353750.svg)
+
+
+
