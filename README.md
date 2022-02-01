@@ -64,7 +64,7 @@ Open vnc and connect to your raspberry, now create a python file in the terminal
 ```
 nano measure.py 
 ```
-Download the necessary libraries with 
+Download the necessary libraries with pip
 
 ```
 pip install thingspeak
@@ -105,6 +105,7 @@ if __name__ == "__main__":
         # free account has an api limit of 15sec
         time.sleep(15)
  ```
+ 
  
 save it and then run it. (Note: the only thing you have to change is the channel id and write key to your own channel's id and write key.)
 Now you can look at your thingspeak channel and analyze the data.
