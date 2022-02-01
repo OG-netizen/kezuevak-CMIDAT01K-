@@ -16,7 +16,5 @@ network={
     psk="YOUR_PASSWORD"
     key_mgmt=WPA-PSK
 }
-
-
 ```
 
