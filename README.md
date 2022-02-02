@@ -1,5 +1,5 @@
 # Measure Humidity and Temperature with Raspberry Pi 3A and DHT22 sensor
-![](images/foto.jpg)
+![](assets/foto.jpg)
 Frequently, a lot of data is generated in projects that run around the clock. One way to store them permanently is to store the data in a local database. However, there are also some reasons that speak against it. In order to keep the measured data (for example, from a weather station) available in the future, it is also possible to avoid various online services. One of these providers is ThingSpeak. In this project we're gonna measure the humidity and temprature then log it in a cloud via an API.
 
 ## Setting up thingspeak account
@@ -8,7 +8,7 @@ Before we start, you need an account at ThingSpeak. Create an account on this li
 
 now make channel with two fields humidty and temparature.
 
-![](images/thingspeak_channel.png)
+![](assets/thingspeak_channel.png)
 
 ## Setting up rasberry pi 
 First you have to flash your SD card. To download the rasbian OS visit this link https://www.raspberrypi.com/software/ 
@@ -45,7 +45,7 @@ sudo raspi-config
 
 With VNC enabled we can now use the laptop as a monitor. 
 
-![](images/vnc.png)
+![](assets/vnc.png)
 
 ## Setting up DHT22 sensor 
 
@@ -110,8 +110,8 @@ if __name__ == "__main__":
  
 save it and then run it. (Note: the only thing you have to change is the channel id and write key to your own channel's id and write key). Now you can look at your thingspeak channel and analyze the data.
 
-![](images/thingspeakStats.png)
+![](assets/thingspeakStats.png)
 
 This is the data pipline for the project. 
 
-![](images/datapipline.png)
+![](assets/datapipline.png)
